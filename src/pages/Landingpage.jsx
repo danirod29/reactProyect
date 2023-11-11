@@ -1,8 +1,11 @@
 import React from "react"
+import Landing from "../components/landing/Landing";
 
 const Landingpage = () =>{
     return (
-        <div></div>
+        <div data-theme="light">
+            <Landing />
+        </div>
     );
 }
 
