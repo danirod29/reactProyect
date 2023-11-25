@@ -1,7 +1,7 @@
 import React from "react"
-import Landing from "../components/signin/Landing";
+import Landing from "../components/signup/Landing";
 
-const Signin = () =>{
+const Signup = () =>{
     return (
         <div data-theme="light">
             <Landing />
@@ -9,4 +9,4 @@ const Signin = () =>{
     );
 }
 
-export default Signin
+export default Signup

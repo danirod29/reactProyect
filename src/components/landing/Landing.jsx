@@ -1,6 +1,11 @@
 import React from "react";
+import { useTarea } from "../../util/tareasContext";
 
 const Landing = () => {
+
+  const { tareas, addTareas } = useTarea();
+  console.log(tareas)
+
   return (
     <div className="overflow-x-auto">
       <table className="table">

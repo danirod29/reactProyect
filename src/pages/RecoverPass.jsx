@@ -1,15 +1,15 @@
 import React from "react"
-import Landing from "../components/landing/Landing";
 import NavBar from "../components/NavBar";
+import Recover from "../components/recover/Recover";
 
-const Landingpage = () =>{
+const RecoverPass = () =>{
     return (
         <div data-theme="light">
             <NavBar />
-            <Landing />
+            <Recover />
         </div>
     );
 }
 
-export default Landingpage
+export default RecoverPass
 
