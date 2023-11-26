@@ -22,157 +22,157 @@ const Main = () => {
           horario[0][0] = tareas[index].tareatemp.nombre;
         }
         if (tareas[index].tareatemp.hora == "8:00 am") {
-          horario[1][0] = tareas[index].tareatemp.nombre;
+          horario[0][1] = tareas[index].tareatemp.nombre;
         }
         if (tareas[index].tareatemp.hora == "10:00 am") {
-          horario[2][0] = tareas[index].tareatemp.nombre;
+          horario[0][2] = tareas[index].tareatemp.nombre;
         }
         if (tareas[index].tareatemp.hora == "12:00 pm") {
-          horario[3][0] = tareas[index].tareatemp.nombre;
+          horario[0][3] = tareas[index].tareatemp.nombre;
         }
         if (tareas[index].tareatemp.hora == "2:00 pm") {
-          horario[4][0] = tareas[index].tareatemp.nombre;
+          horario[0][4] = tareas[index].tareatemp.nombre;
         }
         if (tareas[index].tareatemp.hora == "4:00 pm") {
-          horario[5][0] = tareas[index].tareatemp.nombre;
+          horario[0][5] = tareas[index].tareatemp.nombre;
         }
         if (tareas[index].tareatemp.hora == "6:00 pm") {
-          horario[6][0] = tareas[index].tareatemp.nombre;
+          horario[0][6] = tareas[index].tareatemp.nombre;
         }
         break;
       case "Martes":
         if (tareas[index].tareatemp.hora == "6:00 am") {
-          horario[0][0] = tareas[index].tareatemp.nombre;
+          horario[1][0] = tareas[index].tareatemp.nombre;
         }
         if (tareas[index].tareatemp.hora == "8:00 am") {
           horario[1][1] = tareas[index].tareatemp.nombre;
         }
         if (tareas[index].tareatemp.hora == "10:00 am") {
-          horario[2][1] = tareas[index].tareatemp.nombre;
+          horario[1][2] = tareas[index].tareatemp.nombre;
         }
         if (tareas[index].tareatemp.hora == "12:00 pm") {
-          horario[3][1] = tareas[index].tareatemp.nombre;
+          horario[1][3] = tareas[index].tareatemp.nombre;
         }
         if (tareas[index].tareatemp.hora == "2:00 pm") {
-          horario[4][1] = tareas[index].tareatemp.nombre;
+          horario[1][4] = tareas[index].tareatemp.nombre;
         }
         if (tareas[index].tareatemp.hora == "4:00 pm") {
-          horario[5][1] = tareas[index].tareatemp.nombre;
+          horario[1][5] = tareas[index].tareatemp.nombre;
         }
         if (tareas[index].tareatemp.hora == "6:00 pm") {
-          horario[6][1] = tareas[index].tareatemp.nombre;
+          horario[1][6] = tareas[index].tareatemp.nombre;
         }
         break;
       case "Miercoles":
         if (tareas[index].tareatemp.hora == "6:00 am") {
-          horario[0][2] = tareas[index].tareatemp.nombre;
+          horario[2][0] = tareas[index].tareatemp.nombre;
         }
         if (tareas[index].tareatemp.hora == "8:00 am") {
-          horario[1][2] = tareas[index].tareatemp.nombre;
+          horario[2][1] = tareas[index].tareatemp.nombre;
         }
         if (tareas[index].tareatemp.hora == "10:00 am") {
           horario[2][2] = tareas[index].tareatemp.nombre;
         }
         if (tareas[index].tareatemp.hora == "12:00 pm") {
-          horario[3][2] = tareas[index].tareatemp.nombre;
+          horario[2][3] = tareas[index].tareatemp.nombre;
         }
         if (tareas[index].tareatemp.hora == "2:00 pm") {
-          horario[4][2] = tareas[index].tareatemp.nombre;
+          horario[2][4] = tareas[index].tareatemp.nombre;
         }
         if (tareas[index].tareatemp.hora == "4:00 pm") {
-          horario[5][2] = tareas[index].tareatemp.nombre;
+          horario[2][5] = tareas[index].tareatemp.nombre;
         }
         if (tareas[index].tareatemp.hora == "6:00 pm") {
-          horario[6][2] = tareas[index].tareatemp.nombre;
+          horario[2][6] = tareas[index].tareatemp.nombre;
         }
         break;
-      case "Jueves":
+        case "Jueves":
         if (tareas[index].tareatemp.hora == "6:00 am") {
-          horario[0][3] = tareas[index].tareatemp.nombre;
+          horario[3][0] = tareas[index].tareatemp.nombre;
         }
         if (tareas[index].tareatemp.hora == "8:00 am") {
-          horario[1][3] = tareas[index].tareatemp.nombre;
+          horario[3][1] = tareas[index].tareatemp.nombre;
         }
         if (tareas[index].tareatemp.hora == "10:00 am") {
-          horario[2][3] = tareas[index].tareatemp.nombre;
+          horario[3][2] = tareas[index].tareatemp.nombre;
         }
         if (tareas[index].tareatemp.hora == "12:00 pm") {
           horario[3][3] = tareas[index].tareatemp.nombre;
         }
         if (tareas[index].tareatemp.hora == "2:00 pm") {
-          horario[4][3] = tareas[index].tareatemp.nombre;
+          horario[3][4] = tareas[index].tareatemp.nombre;
         }
         if (tareas[index].tareatemp.hora == "4:00 pm") {
-          horario[5][3] = tareas[index].tareatemp.nombre;
+          horario[3][5] = tareas[index].tareatemp.nombre;
         }
         if (tareas[index].tareatemp.hora == "6:00 pm") {
-          horario[6][3] = tareas[index].tareatemp.nombre;
+          horario[3][6] = tareas[index].tareatemp.nombre;
         }
         break;
       case "Viernes":
         if (tareas[index].tareatemp.hora == "6:00 am") {
-          horario[0][4] = tareas[index].tareatemp.nombre;
+          horario[4][0] = tareas[index].tareatemp.nombre;
         }
         if (tareas[index].tareatemp.hora == "8:00 am") {
-          horario[1][4] = tareas[index].tareatemp.nombre;
+          horario[4][1] = tareas[index].tareatemp.nombre;
         }
         if (tareas[index].tareatemp.hora == "10:00 am") {
-          horario[2][4] = tareas[index].tareatemp.nombre;
+          horario[4][2] = tareas[index].tareatemp.nombre;
         }
         if (tareas[index].tareatemp.hora == "12:00 pm") {
-          horario[3][4] = tareas[index].tareatemp.nombre;
+          horario[4][3] = tareas[index].tareatemp.nombre;
         }
         if (tareas[index].tareatemp.hora == "2:00 pm") {
           horario[4][4] = tareas[index].tareatemp.nombre;
         }
         if (tareas[index].tareatemp.hora == "4:00 pm") {
-          horario[5][4] = tareas[index].tareatemp.nombre;
+          horario[4][5] = tareas[index].tareatemp.nombre;
         }
         if (tareas[index].tareatemp.hora == "6:00 pm") {
-          horario[6][4] = tareas[index].tareatemp.nombre;
+          horario[4][6] = tareas[index].tareatemp.nombre;
         }
         break;
       case "Sabado":
         if (tareas[index].tareatemp.hora == "6:00 am") {
-          horario[0][5] = tareas[index].tareatemp.nombre;
+          horario[5][0] = tareas[index].tareatemp.nombre;
         }
         if (tareas[index].tareatemp.hora == "8:00 am") {
-          horario[1][5] = tareas[index].tareatemp.nombre;
+          horario[5][1] = tareas[index].tareatemp.nombre;
         }
         if (tareas[index].tareatemp.hora == "10:00 am") {
-          horario[2][5] = tareas[index].tareatemp.nombre;
+          horario[5][2] = tareas[index].tareatemp.nombre;
         }
         if (tareas[index].tareatemp.hora == "12:00 pm") {
-          horario[3][5] = tareas[index].tareatemp.nombre;
+          horario[5][3] = tareas[index].tareatemp.nombre;
         }
         if (tareas[index].tareatemp.hora == "2:00 pm") {
-          horario[4][5] = tareas[index].tareatemp.nombre;
+          horario[5][4] = tareas[index].tareatemp.nombre;
         }
         if (tareas[index].tareatemp.hora == "4:00 pm") {
           horario[5][5] = tareas[index].tareatemp.nombre;
         }
         if (tareas[index].tareatemp.hora == "6:00 pm") {
-          horario[6][5] = tareas[index].tareatemp.nombre;
+          horario[5][6] = tareas[index].tareatemp.nombre;
         }
         break;
       case "Domingo":
         if (tareas[index].tareatemp.hora == "6:00 am") {
-          horario[0][6] = tareas[index].tareatemp.nombre;
+          horario[6][0] = tareas[index].tareatemp.nombre;
         }
         if (tareas[index].tareatemp.hora == "8:00 am") {
-          horario[1][6] = tareas[index].tareatemp.nombre;
+          horario[6][1] = tareas[index].tareatemp.nombre;
         }
         if (tareas[index].tareatemp.hora == "10:00 am") {
-          horario[2][6] = tareas[index].tareatemp.nombre;
+          horario[6][2] = tareas[index].tareatemp.nombre;
         }
         if (tareas[index].tareatemp.hora == "12:00 pm") {
-          horario[3][6] = tareas[index].tareatemp.nombre;
+          horario[6][3] = tareas[index].tareatemp.nombre;
         }
         if (tareas[index].tareatemp.hora == "2:00 pm") {
-          horario[4][6] = tareas[index].tareatemp.nombre;
+          horario[6][4] = tareas[index].tareatemp.nombre;
         }
         if (tareas[index].tareatemp.hora == "4:00 pm") {
-          horario[5][6] = tareas[index].tareatemp.nombre;
+          horario[6][5] = tareas[index].tareatemp.nombre;
         }
         if (tareas[index].tareatemp.hora == "6:00 pm") {
           horario[6][6] = tareas[index].tareatemp.nombre;

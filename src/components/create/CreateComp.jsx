@@ -117,6 +117,8 @@ const CreateComp = () => {
                   <option>Miercoles</option>
                   <option>Jueves</option>
                   <option>Viernes</option>
+                  <option>Sabado</option>
+                  <option>Domingo</option>
                 </select>
               </div>
               <div>
